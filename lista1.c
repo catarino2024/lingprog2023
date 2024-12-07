@@ -276,7 +276,74 @@ void q20()
 }
 
 int main(){}
+int main() {
+	switch (opcao) {
+	case 1:
+			questao01();
+			break;
+	case 2:
+			questao02();
+			break;
+	case 3:
+			questao03();
+			break;
+	case 4:
+			questao04();
+			break;
+	case 5:
+			questao05();
+			break;	
+	case 6:
+			questao06();
+			break;
+     case 7:
+			questao07();
+			break;
+	case 8:
+			questao08();
+			break;
+	case 9:
+			questao09();
+			break;	
+	case 10:
+			questao10();
+			break;		
+	case 11:
+			questao11();
+			break;
+	case 12:
+			questao12();
+			break;	
+	case 13:
+			questao13();
+			break;
+	case 14:
+			questao14();
+			break;	
+	case 15:
+			questao15();
+			break;	
+	case 16:
+			questao16();
+			break;	
+	case 17:
+			questao17();
+			break;	
+	case 18:
+			questao18();
+			break;
+case 19:
+    break;
+ case 20
+    questao20();
+    break;
+						
+	default:
 
+			printf("Opção inválida!");
+	}
+	
+} 
 return 0  EXIT_SUCCESSO
 
       
